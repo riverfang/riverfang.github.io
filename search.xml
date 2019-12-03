@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/12/03/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>markdown常用语法</title>
+    <url>/2019/12/03/solt/</url>
+    <content><![CDATA[<h2 id="marckdown常用语法"><a href="#marckdown常用语法" class="headerlink" title="marckdown常用语法"></a>marckdown常用语法</h2><blockquote>
+<h4 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h4></blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">E = mc^2</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">需要换行时在后面输入两个空格，然后回车</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3></blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 这是H1</span><br><span class="line">## 这个是H2</span><br><span class="line">### 这个是H3</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h3 id="区块引用"><a href="#区块引用" class="headerlink" title="区块引用"></a>区块引用</h3></blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">使用&gt;的引用方式，例如: &gt; 引用的内容</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3></blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. 有序列表</span><br><span class="line">   直接在数字后面加上点号</span><br><span class="line">2. 无序列表</span><br><span class="line">   在每一行前面加上*号、+号或者-号即可</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h3 id="分区代码块"><a href="#分区代码块" class="headerlink" title="分区代码块"></a>分区代码块</h3><pre><code>四个空格(或一个tab)，或者代码区间上下边缘使用反单引号进行代码区间的隔离  </code></pre><h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3></blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">在一行中用三个或三个以上的*号或-即可输出分割线</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<blockquote>
+<h3 id="区段元素"><a href="#区段元素" class="headerlink" title="区段元素"></a>区段元素</h3><p><a href="http://wwww.baidu.com" title="百度一下你就知道了" target="_blank" rel="noopener">百度一下</a><br><img src="http://www.baidu.com/img/dong_ca53b94625c757745bcb2c16461eb105.gif" alt="我们都是追梦人" title="我们都是追梦人"></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. 链接</span><br><span class="line">[alt text](url地址 &apos;title&apos;)  </span><br><span class="line">2. 图片</span><br><span class="line">![alt text](url地址 &apos;title&apos;)</span><br><span class="line">3. 强调</span><br><span class="line">将强调部分使用单*号或单_进行包裹</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+<thead>
+<tr>
+<th>header 1</th>
+<th>header 2</th>
+<th>header 3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>row 1 col 1</td>
+<td>row 1 col 2</td>
+<td>我们都是追梦人</td>
+</tr>
+<tr>
+<td>row 2 col 1</td>
+<td>row 2 col 2</td>
+<td>我的中国梦</td>
+</tr>
+</tbody></table>
+</blockquote>
+<blockquote>
+<h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3></blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">基本图元</span><br><span class="line">1. id + [文字描述]      表示矩形</span><br><span class="line">2. id + (文字描述)      表示圆角矩形</span><br><span class="line">3. id + &gt;文字描述]      表示不对称矩形</span><br><span class="line">4. id + &#123;文字描述&#125;      表示菱形</span><br><span class="line">5. id + ((文字描述))    表示圆形</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">id1[带文本的矩形]</span><br><span class="line">id2(带文本的圆角矩形)</span><br><span class="line">id3&gt;带文本的不对称矩形]</span><br><span class="line">id4&#123;带文本的菱形&#125;</span><br><span class="line">id5((带文本的原型))</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">节点之间的关联  </span><br><span class="line">1. A--&gt;B  A带箭头指向B</span><br><span class="line">2. A---B  A不带箭头指向B</span><br><span class="line">3. A-.-&gt;B A用带箭头的虚线指向B</span><br><span class="line">4. A-.-B  A用不带箭头的虚线指向B</span><br><span class="line">5. A==&gt;B  A用加粗箭头执行B</span><br><span class="line">6. A--描述---B  A不带箭头指向B，并在中间加上文字</span><br><span class="line">7. A--描述--&gt;B   A带箭头指向B，并在中间加上文字</span><br><span class="line">8. A-.描述.-&gt;B   A带箭头虚线指向B，并在中间加上文字</span><br><span class="line">9. A-.描述.--B   A不带箭头的虚线指向B，并在中间加上文字</span><br><span class="line">10. A==描述==&gt;   A带粗线箭头指向B，并在中间加上文字</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[A]--&gt;B[B]</span><br><span class="line">A1[A]---B1[B]</span><br><span class="line">A2[A]-.-&gt;B2[B]</span><br><span class="line">A3[A]-.-B3[B]</span><br><span class="line">A4[A]==&gt;B4[B]</span><br><span class="line">A5[A]--描述---B5[B]</span><br><span class="line">A6[A]--描述--&gt;B6[B]</span><br><span class="line">A7[A]-.描述.-&gt;B7[B]</span><br><span class="line">A8[A]-.描述.--B8[B]</span><br><span class="line">A9[A]==描述==&gt;B9[B]</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A--&gt;B[开始节点]</span><br><span class="line">style B fill:purple,fill-opacity:0.5,stroke-dasharray: 5,stroke-width:3px,stroke:black</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>简易样式</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">start[开始节点]--&gt;decision&#123;判断是否已经登录&#125;</span><br><span class="line"></span><br><span class="line">decision--&gt;|否|d(未登录)</span><br><span class="line">decision--&gt;|是|c(已登录)</span><br><span class="line">d--&gt;stop[结束节点]</span><br><span class="line">c--&gt;stop</span><br><span class="line"></span><br><span class="line">style start fill:#66FF66,fill-opacity:0.8</span><br><span class="line">style stop fill:#F33B14,fill-opacity:0.8</span><br><span class="line">style decision fill:#FFFF66,fill-opacity:0.8,stroke:red,stroke-width:3px,stroke-dasharray:5</span><br><span class="line">style d fill:red,fill-opacity:0.8</span><br><span class="line">style c fill:green,fill-opacity:0.8</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>一些案例</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph TD</span><br><span class="line">    st[注册印象笔记]--&gt;a</span><br><span class="line">    a&#123;是否已经购买马克飞象&#125;</span><br><span class="line">    a--&gt;|是|b1(您已购买马克飞象可以使用markdown语法)</span><br><span class="line">    a--&gt;|否|b2(您还未能成功购买马克飞象但你可以免费试用10天)</span><br><span class="line">    b1--&gt;c[欢迎使用马克飞象]</span><br><span class="line">    b2--&gt;d&#123;是否要购买马克飞象&#125;</span><br><span class="line">    d--&gt;|是|e1(您已成功购买马克飞象欢迎使用)</span><br><span class="line">    e1--&gt;c</span><br><span class="line">    d--&gt;|否|e2(试用10天后将会到期欢迎购买)</span><br></pre></td></tr></table></figure>
+
+
+
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">title: 消息推送时序图</span><br><span class="line">浏览器客户端-&gt; web端: 请求握手建立连接</span><br><span class="line">dubbo服务-&gt; web端: 调用controller层</span><br><span class="line">web端--&gt; 浏览器客户端: 推送消息</span><br><span class="line">note left dubbo服务: 数据包解析完成后，调用web端控制层(或者其他http端点)，发送需要推送的消息作为请求体</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> fmtDate = <span class="function"><span class="keyword">function</span> (<span class="params">value,fmt</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!value || !fmt)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">""</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">try</span>&#123;</span><br><span class="line">        <span class="keyword">var</span> d = value <span class="keyword">instanceof</span> <span class="built_in">Date</span> ? value : (!<span class="built_in">isNaN</span>(value) ? <span class="keyword">new</span> <span class="built_in">Date</span>(value) : (<span class="regexp">/([a-zA-Z])/</span>.test(value) ? value : <span class="keyword">new</span> <span class="built_in">Date</span>(value.replaceAll(<span class="string">"-"</span>,<span class="string">"/"</span>))));</span><br><span class="line">        <span class="keyword">var</span> o = &#123;</span><br><span class="line">            <span class="string">"M+"</span>: d.getMonth() + <span class="number">1</span>, <span class="comment">//月份</span></span><br><span class="line">            <span class="string">"d+"</span>: d.getDate(), <span class="comment">//日</span></span><br><span class="line">            <span class="string">"h+"</span>: d.getHours(), <span class="comment">//小时</span></span><br><span class="line">            <span class="string">"m+"</span>: d.getMinutes(), <span class="comment">//分</span></span><br><span class="line">            <span class="string">"s+"</span>: d.getSeconds(), <span class="comment">//秒</span></span><br><span class="line">            <span class="string">"q+"</span>: <span class="built_in">Math</span>.floor((d.getMonth() + <span class="number">3</span>) / <span class="number">3</span>), <span class="comment">//季度</span></span><br><span class="line">            <span class="string">"S"</span>: d.getMilliseconds() <span class="comment">//毫秒</span></span><br><span class="line">        &#125;;</span><br><span class="line">        <span class="keyword">if</span> (<span class="regexp">/(y+)/</span>.test(fmt)) fmt = fmt.replace(<span class="built_in">RegExp</span>.$<span class="number">1</span>, (d.getFullYear() + <span class="string">""</span>).substr(<span class="number">4</span> - <span class="built_in">RegExp</span>.$<span class="number">1.</span>length));</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">var</span> k <span class="keyword">in</span> o)</span><br><span class="line">            <span class="keyword">if</span> (<span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">"("</span> + k + <span class="string">")"</span>).test(fmt)) fmt = fmt.replace(<span class="built_in">RegExp</span>.$<span class="number">1</span>, (<span class="built_in">RegExp</span>.$<span class="number">1.</span>length == <span class="number">1</span>) ? (o[k]) : ((<span class="string">"00"</span> + o[k]).substr((<span class="string">""</span> + o[k]).length)));</span><br><span class="line">        <span class="keyword">return</span> fmt;</span><br><span class="line">    &#125;<span class="keyword">catch</span>(e)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">""</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">gantt</span><br><span class="line">dateFormat  YYYY-MM-DD</span><br><span class="line">title Shop项目交付计划</span><br><span class="line"> </span><br><span class="line">section 里程碑 0.1 </span><br><span class="line">数据库设计          :active,    p1, 2016-08-15, 3d</span><br><span class="line">详细设计            :           p2, after p1, 2d</span><br><span class="line"> </span><br><span class="line">section 里程碑 0.2</span><br><span class="line">后端开发            :           p3, 2016-08-22, 20d</span><br><span class="line">前端开发            :           p4, 2016-08-22, 15d</span><br><span class="line"> </span><br><span class="line">section 里程碑 0.3</span><br><span class="line">功能测试            :       p6, after p3, 5d</span><br><span class="line">上线               :       p7, after p6, 2d</span><br><span class="line">交付               :       p8, afterp7, 2d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+</search>
