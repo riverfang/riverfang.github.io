@@ -1,0 +1,90 @@
+# hexo-theme-next 主题设置
+
+# 网站信息设置
+favicon:
+  small: /images/avatar.jpg
+  medium: /images/avatar.jpg
+  apple_touch_icon: /images/avatar.jpg
+  safari_pinned_tab: /images/avatar.jpg
+
+# 页脚设置
+footer:
+  copyright: Copyright & Copy @riverfang. All rights reserved.
+  powered:
+    enable: false
+    version: false
+
+  theme:
+    enable: false
+    version: false
+
+# Scheme 设置
+scheme: Mist
+
+# 菜单设置
+menu:
+  home: / || home
+  about: /about/ || user
+  tags: /tags/ || tags
+  categories: /categories/ || th
+  archives: /archives/ || archive
+
+# 侧边栏设置
+sidebar:
+  position: right
+  Muse | Mist: 320
+
+# 侧边栏头像设置
+avatar:
+  url: /images/avatar.gif
+  rounded: true
+  rotated: true
+
+# 社交连接设置
+social:
+  GitHub: https://github.com/riverfang || github
+  E-Mail: mailto:riverfang150@gmail.com || envelope
+
+excerpt_description: true
+
+# 代码高亮设置
+codeblock:
+  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
+  highlight_theme: normal
+  copy_button:
+    enable: true
+    # Show text copy result.
+    show_result: true
+    # Available values: default | flat | mac
+    style: falt
+
+# 数学公式设置
+math:
+  katex:
+    enable: true
+    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+    copy_tex: false
+
+# 图片打开方式
+fancybox: true
+
+# Mermaid 标签
+mermaid:
+  enable: true
+  # Available themes: default | dark | forest | neutral
+  theme: forest
+
+# license声明
+creative_commons:
+  license: by-nc-sa
+  sidebar: false
+  post: true
+  language:
+
+local_search:
+  enable: true
+
+
+
+
+
